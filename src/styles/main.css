@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    gap: 1em;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-image: linear-gradient(90deg, #03b2d4 0%, #090979 35%, #03003b 100%);
+    height: 60px;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #03b2d4 100%);
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar ul li:hover {
+    border-bottom: 3px solid #03b2d4;
+}
+
+.navbar ul li a{
+    color: #ffc107;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+    color:#03b2d4;
+}
+
+.container-servicos {
+    margin-top: 20px;
+    background-color: #03003b;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    width: 50vw;
+    padding: 15px;
+}
+
+.tipos-servico {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 4px darkcyan;
+    margin-top: 12px;
+    color: #ffc107;
+    font-size: 18px;
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #029ebd 100%);
+    border-radius: 10px;
+}
+
+.tipos-servico p {
+    width: 250px;
+}
+
+.tipos-servico span {
+    width: 70px;
+}
+
+.fotos {
+    max-width: 70px;
+    padding: 4px;
+    border-radius: 15px;
+    filter: drop-shadow(0px 0px 6px black);
+}
