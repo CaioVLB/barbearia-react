@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div style={{width: 200}}>
-        <img src="images/BARBEARIA_TO_KING-logo.png" alt="logo da barbearia of king" width={"100%"} />  
+        <img src="images/logo-barbearia.png" alt="logo da barbearia of king" width={"100%"} />  
       </div>
       
       <ul>
