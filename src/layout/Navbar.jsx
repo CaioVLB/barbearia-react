@@ -1,24 +1,27 @@
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
   
+  const navigate = useNavigate();
+
   return (
-    <div className="navbar">
+    <div className="my_navbar">
       <div style={{width: 200}}>
         <img src="images/logo-barbearia.png" alt="logo da barbearia of king" width={"100%"} />  
       </div>
       
-      <ul>
+      <ul className="my_ul">
         <li>
-          <a href="#">Cortes</a>
+          <a className="my_a" onClick={() => {navigate("/corte")}}>Cortes</a>
         </li>
         <li>
-          <a href="#">Barbas</a>
+          <a className="my_a" onClick={() => {navigate("/barba")}}>Barbas</a>
         </li>
         <li>
-          <a href="#">Sobrancelhas</a>
+          <a className="my_a" onClick={() => {navigate("/sombrancelha")}}>Sobrancelhas</a>
         </li>
         <li>
-          <a href="#">Controle de serviços</a>
+          <a className="my_a" onClick={() => {navigate("/controle")}}>Controle de serviços</a>
         </li>
       </ul>
     </div>
