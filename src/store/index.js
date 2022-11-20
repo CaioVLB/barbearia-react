@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import clientes from "./slices/clienteSlices";
-import dados from "./slices/dadosSlices";
+import atendimentos from "./slices/atendimentosSlice";
+import dados from "./slices/dadosSlice";
 
 export const store = configureStore({
   reducer: {
-    clientes,
+    atendimentos,
     dados
   },
 });

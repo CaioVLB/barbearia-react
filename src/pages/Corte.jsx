@@ -6,7 +6,7 @@ import { useEffect } from "react";
 export default function Corte({ title }) {
 
     const rd_dados = useSelector(store => store.dados);
-    useEffect( () => {console.log(rd_dados)}, [rd_dados]);
+    // useEffect( () => {console.log(rd_dados)}, [rd_dados]);
 
     return (
         <>
