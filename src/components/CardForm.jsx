@@ -12,6 +12,7 @@ export default function CardForm({ title, dados }) {
     const rd_atendimentos = useSelector(store => store.atendimentos)
     const dispatch = useDispatch();
     const [selected, setSelected] = useState([])
+    const nome = "Celso"
 
     function filtraDados() {
         const barbas_checked = rd_dados.barba.filter((e) => e.checked === true)
