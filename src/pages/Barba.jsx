@@ -8,11 +8,11 @@ export default function Barba({ title }) {
     // useEffect( () => {console.log(rd_dados)}, [rd_dados]);
 
     return (
-        <>
-            <CardForm/>
-            <CardServicos title="BARBAS" dados={rd_dados.barba} tipo_servico="barba"/>
+        <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 40}}>
             
-        </>
+            <CardServicos title="BARBAS" dados={rd_dados.barba} tipo_servico="barba"/>
+            <CardForm/>
+        </div>
 
     );
 }

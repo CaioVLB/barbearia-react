@@ -8,10 +8,11 @@ export default function Sombrancelha({ title }) {
     useEffect( () => {console.log(rd_dados)}, [rd_dados]);
     
     return (
-        <>
-            <CardForm />
+        <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 40}}>
+            
             <CardServicos title="SOMBRANCELHAS" dados={rd_dados.sombrancelha} tipo_servico="sombrancelha"/>
-        </>
+            <CardForm />
+        </div>
 
     );
 }

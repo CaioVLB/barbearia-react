@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {setCheckbox, setMarcados} from "../store/slices/dadosSlice"
 import { useEffect } from "react";
 
-export default function CardServicos({title, dados, tipo_servico}) {
+export default function CardServicos({title, dados}) {
 
   const rd_dados = useSelector(store => store.dados)
   const dispatch = useDispatch();

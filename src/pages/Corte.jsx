@@ -9,10 +9,11 @@ export default function Corte({ title }) {
     // useEffect( () => {console.log(rd_dados)}, [rd_dados]);
 
     return (
-        <>
-            <CardForm />
+        <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 40}}>
+        
             <CardServicos title="CORTES" dados={rd_dados.corte} tipo_servico="corte"/>
-        </>
+            <CardForm />
+        </div>
 
     );
 }

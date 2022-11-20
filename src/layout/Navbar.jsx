@@ -6,11 +6,11 @@ export default function Navbar() {
 
   return (
     <div className="my_navbar">
-      <div style={{width: 200}}>
+      <div style={{width: 300, margin: 10}}>
         <img src="images/logo-barbearia.png" alt="logo da barbearia of king" width={"100%"} />  
       </div>
       
-      <ul className="my_ul">
+      {/* <ul className="my_ul">
         <li>
           <a className="my_a" onClick={() => {navigate("/corte")}}>Cortes</a>
         </li>
@@ -23,7 +23,7 @@ export default function Navbar() {
         <li>
           <a className="my_a" onClick={() => {navigate("/controle")}}>Controle de serviços</a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

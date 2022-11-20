@@ -4,17 +4,17 @@ const atendimentosSlice = createSlice({
     name: "atendimentos",
     initialState: {
         inputNomeCliente: '',
-        atendimentos: [],
+        listAtendimentos: [],
     },
     reducers: {
         changeInput(state, action) {
             state.inputNomeCliente = action.payload
         },
         addAtendimento(state, action) {
-            state.atendimentos.push(action.payload);
+            state.listAtendimentos.push(action.payload);
         },
         editAtendimento(state, action) {
-            state.atendimentos[action.payload.index] = action.payload.atendimento;
+            state.listAtendimentos[action.payload.index] = action.payload.atendimento;
         },
     },
 });
