@@ -8,7 +8,7 @@ function Navbar2() {
     const navigate = useNavigate();
 
   return (
-    <Navbar expand="md" style={{width: '100%', backgroundColor: '#1085'}} class>
+    <Navbar expand="md" style={{width: '45%', borderStyle: 'none none solid none', borderColor: '#ffc107'}} class>
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{color: '#fff'}} />
         <Navbar.Collapse id="basic-navbar-nav" style={{color: '#fff'}}>

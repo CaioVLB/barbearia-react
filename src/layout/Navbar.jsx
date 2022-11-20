@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <div className="my_navbar">
-      <div style={{width: 300, margin: 10}}>
+      <div style={{width: 270, margin: 7}}>
         <img src="images/logo-barbearia.png" alt="logo da barbearia of king" width={"100%"} />  
       </div>
       
